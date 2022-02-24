@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kalkulator Risaranghae</string>
+    <string name="kali">Kali</string>
+    <string name="hasil">Hasil</string>
+    <string name="lebar">Masukan Nilai</string>
+    <string name="panjang">Masukan Nilai</string>
+    <string name="tambah">Tambah</string>
+    <string name="kurang">Kurang</string>
+    <string name="bagi">Bagi</string>
+    <string name="sisabagi">Sisa Bagi</string>
+</resources>
