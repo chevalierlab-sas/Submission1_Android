@@ -1,3 +1,3 @@
 # Submission1_Android
-Panji Dwi Satrio/n
-Submission1_Calculator
+#Panji Dwi Satrio
+#Submission1_Calculator
