@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aplikasi Menghitung Persegi</string>
+    <string name="hitung">Hitung</string>
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="bagi">Bagi</string>
+    <string name="sisa">Sisa</string>
+    <string name="tambah">Tambah</string>
+    <string name="kurang">Kurang</string>
+    <string name="kali" translatable="false">hasil</string>
+</resources>
