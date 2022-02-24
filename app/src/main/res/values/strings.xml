@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="hasil">Hasil</string>
+    <string name="tambah">TAMBAH</string>
+    <string name="kurang">KURANG</string>
+    <string name="kali">KALI</string>
+    <string name="bagi">BAGI</string>
+    <string name="modulus">SISA BAGI</string>
+    <string name="kalkulator_sederhana">KALKULATOR SEDERHANA</string>
+    <string name="nilai_1">Nilai 1:</string>
+    <string name="nilai_2">Nilai 2:</string>
+    <string name="hasil_text">Hasil:</string>
+    <string name="hint_value">Masukkan Angka</string>
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kalkulator_sederhana"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvNilai1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nilai_1"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvJudul" />
+
+    <TextView
+        android:id="@+id/tvHasilText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hasil_text"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNilai2"/>
+
+    <TextView
+        android:id="@+id/tvNilai2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nilai_2"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNilai1" />
+
+    <Button
+        android:id="@+id/btnTambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tambah"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:theme="@style/button"
+        android:layout_marginStart="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnKurang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kurang"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:theme="@style/button"
+        android:layout_marginStart="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnTambah"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bagi"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:theme="@style/button"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        app:layout_constraintStart_toEndOf="@id/btnKali"
+        app:layout_constraintTop_toBottomOf="@+id/btnKurang"/>
+
+    <Button
+        android:id="@+id/btnSisaBagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modulus"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:theme="@style/button"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="20sp"
+        app:layout_constraintStart_toEndOf="@+id/btnBagi"
+        app:layout_constraintTop_toBottomOf="@id/btnKurang"/>
+
+    <Button
+        android:id="@+id/btnKali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/kali"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:theme="@style/button"
+        android:layout_margin="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnTambah"
+        />
+
+    <EditText
+        android:id="@+id/edtPertama"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="number"
+        android:hint="@string/hint_value"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toEndOf="@id/tvNilai1"
+        app:layout_constraintTop_toBottomOf="@+id/tvJudul"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/tvHasil"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:background="@color/grey"
+        app:layout_constraintStart_toStartOf="@+id/edtKedua"
+        app:layout_constraintTop_toBottomOf="@+id/edtKedua" />
+
+    <EditText
+        android:id="@+id/edtKedua"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/hint_value"
+        app:layout_constraintStart_toEndOf="@id/tvNilai2"
+        app:layout_constraintTop_toBottomOf="@+id/edtPertama"
+        android:autofillHints="" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
