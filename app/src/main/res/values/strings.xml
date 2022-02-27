@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="hasil">Hasil</string>
+    <string name="masukkan_angka">Masukkan angka</string>
+    <string name="kali">Kali</string>
+    <string name="bagi">Bagi</string>
+    <string name="modulus">modulus</string>
+    <string name="tambah">tambah</string>
+    <string name="kurang">kurang</string>
+</resources>
