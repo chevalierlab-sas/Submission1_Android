@@ -1,0 +1,4 @@
+com/firmansyah/sgfirstapplication/databinding/ActivityMainBinding.java
+ com.firmansyah.sgfirstapplication.databinding.ActivityMainBinding
+com/firmansyah/sgfirstapplication/BuildConfig.java
+ com.firmansyah.sgfirstapplication.BuildConfig
