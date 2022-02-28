@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">kalkultor sederhana2</string>
+    <string name="kalkulator_sederhana">kalkulator Sederhana</string>
+    <string name="nilai2">Nilai2</string>
+    <string name="nilai3">Nilai3</string>
+    <string name="kali">Kali</string>
+    <string name="bagi">bagi</string>
+    <string name="tambah">tambah</string>
+    <string name="kurang">Kurang</string>
+    <string name="nilai1">Nilai1:</string>
+    <string name="hasil">Hasil:</string>
+</resources>
